@@ -437,7 +437,7 @@ for i, color in enumerate(colors):<br>
 # Tampilkan mask dalam format RGB<br>
 plt.imshow(mask_rgb)<br>
 plt.show()<br>
-![6b711ab8-4e62-4511-9975-13fbb4927ce3]<br>(https://github.com/Giovillando/Segmentation-AV-using-Combination-ResUnet-with-ViT/assets/121701082/2efe4e14-6b58-43f2-8e51-4425ae9c7e74)
+![6b711ab8-4e62-4511-9975-13fbb4927ce3](https://github.com/Giovillando/Segmentation-AV-using-Combination-ResUnet-with-ViT/assets/121701082/404ba69e-5311-49c6-9619-55420ef22443)
 
 <h3> Program di atas adalah implementasi dari sebuah arsitektur jaringan yang menggabungkan beberapa komponen penting untuk tugas segmentasi gambar, dengan menggunakan elemen dari Vision Transformer (ViT) dan ResUNet++.  </h3>
 import tensorflow as tf <br>
