@@ -415,6 +415,7 @@ for i, image in enumerate(sample_images):<br>
     plt.axis('off')<br>
 <br>
 plt.show()<br>
+![8bd279ab-e3c3-4a88-a61a-a6c24a753097](https://github.com/Giovillando/Segmentation-AV-using-Combination-ResUnet-with-ViT/assets/121701082/ee4be276-4dda-43c2-b231-262d3862ce55)
 
 <h3>Program ini berfungsi untuk mempersiapkan data untuk pelatihan model pembelajaran mesin atau deep learning dalam konteks tugas segmentasi gambar. Menggunakan fungsi one_hot_encode_masks untuk mengubah gambar-gambar label (Y) dari format RGB menjadi integer encoded labels dan menyesuaikan jumlah kelas yang baru</h3>
 # convert RGB values to integer encoded labels for categorical_crossentropy<br>
@@ -692,6 +693,8 @@ plot_segm_history(<br>
     metrics=['accuracy', 'val_accuracy'],<br>
     losses=['loss', 'val_loss']<br>
 )<br>
+![6d055243-1d60-44cb-ab9d-30f0f27f7e3f](https://github.com/Giovillando/Segmentation-AV-using-Combination-ResUnet-with-ViT/assets/121701082/22f7d3d0-44f9-42c5-a583-5e26890d0559)
+![a4940a17-525f-4dbf-851b-f9b1c8d0d256](https://github.com/Giovillando/Segmentation-AV-using-Combination-ResUnet-with-ViT/assets/121701082/e9fd78e9-7b63-41e7-a6fd-b1a6f51378ff)
 
 <h3>Program ini berfungsi untuk melakukan visualisasi prediksi model pada dataset pengujian (test set). Pada program ini terdapat rgb_ground_truth sebagai groundtruth dan Prediction sebagai gambar prediksi. Pada program ini bertujuan untuk Memvisualisasikan bagaimana model memprediksi label-mask dari citra input dan kemudian
 Membandingkan hasil prediksi(prediction) dengan ground truth(rgb_ground_truth) untuk mengevaluasi kualitas prediksi model. </h3>
