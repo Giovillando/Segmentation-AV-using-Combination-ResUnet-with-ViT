@@ -769,7 +769,7 @@ model.load_weights(model_dir+model_name)<br>
 pred=model.predict(X_test)<br>
 pred=np.argmax(pred,axis=3)<br>
 pred.shape<br>
-
+<br>
 <h3>Program ini digunakan untuk mengevaluasi performa model segmentasi gambar dengan menggunakan metrik evaluasi seperti confusion matrix dan classification report. Matriks kebingungan (confusion_matrix) digunakan untuk menunjukkan jumlah prediksi yang benar dan salah untuk setiap kelas. Classification_report memberikan ringkasan berbagai metrik evaluasi seperti presisi, recall, f1-score, dan support untuk setiap kelas.</h3>
 from sklearn.metrics import confusion_matrix, classification_report <br>
 Y_test1=np.argmax(Y_test,axis=3) <br>
